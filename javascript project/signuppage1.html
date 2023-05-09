@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title> Sign up page</title>
+        <link rel="stylesheet" type="text/css" href="sam.css">
+        <style>
+            body{
+                background-color:bisque;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <p> <h1>Sign up to continue</h1> </p>
+        <form name="myForm" action="homepage.html" onsubmit="return validateForm()" method="post">
+           Registration Number: <input type="text" name="fregno" required><br><br>
+           User Name: <input type="text" name="fname" required><br><br>
+           Password:<input  type="text" name="fpwd" required><br><br>
+           Email:<input type="email" name="femail" required><br><br>
+           mobile number:<input type="text" name="fmobno" maxlength="10" required><br><br>
+           Date of Birth:<input type="date" name="fdob" required><br><br>
+           <input type="submit" value="Submit">
+        </form>
+       
+      
+    </body>
+</html>
