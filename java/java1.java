@@ -1,10 +1,10 @@
-package worldline.assignment;
+
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
-class Recruitment extends WorldlineAssignment{
+class Recruitment extends Java1{
     
   public int avg(int phy,int che,int mb)
   {
@@ -45,7 +45,7 @@ class Recruitment extends WorldlineAssignment{
 
 
 
-public class WorldlineAssignment {
+public class Java1{
 
    
     public static void main(String[] args) {
